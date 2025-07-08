@@ -15,11 +15,13 @@
       font-family: 'Inter', sans-serif;
       background-color: #ffffff;
       color: #1a1a1a;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
       text-align: center;
       padding: 4rem 1.5rem;
+    }
+
+    header {
+      max-width: 800px;
+      margin: 0 auto 3rem;
     }
 
     header img {
@@ -37,20 +39,30 @@
       font-size: 1.25rem;
       max-width: 600px;
       margin: 0 auto 2rem;
+      color: #444;
     }
 
-    .coming-soon {
-      background-color: #f9f9f9;
-      padding: 1.5rem 2rem;
+    .feature-section {
+      background: #f9f9f9;
+      padding: 2.5rem 1.5rem;
       border-radius: 12px;
-      font-size: 1rem;
-      color: #444;
-      max-width: 500px;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+      max-width: 700px;
+      margin: 2rem auto;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    }
+
+    .feature-section h2 {
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+    }
+
+    .feature-section p {
+      font-size: 1.1rem;
+      margin-bottom: 0;
     }
 
     footer {
-      margin-top: 3rem;
+      margin-top: 4rem;
       font-size: 0.875rem;
       color: #999;
     }
@@ -60,6 +72,10 @@
         font-size: 2rem;
       }
 
+      .feature-section h2 {
+        font-size: 1.5rem;
+      }
+
       p {
         font-size: 1.1rem;
       }
@@ -67,16 +83,28 @@
   </style>
 </head>
 <body>
+
   <header>
-    <img src="https://via.placeholder.com/180x60?text=Wingman+AI+Logo" alt="Wingman AI Logo" />
+    <img src="https://wingmanai.org/logo.png" alt="Wingman AI Logo" />
     <h1>Wingman AI</h1>
     <p>The smarter, safer way to navigate modern dating – powered by emotional intelligence and real human insight.</p>
   </header>
 
-  <section class="coming-soon">
-    🚀 Our launch is coming soon.  
-    <br /><br />
-    We're building something that understands you – and helps you find someone who does too.
+  <section class="feature-section">
+    <h2>🔎 Scam Detection, Built Right In</h2>
+    <p>
+      Your personal radar for fake profiles.<br />
+      Wingman AI flags red flags — from stolen photos to manipulative language — before you waste your time or your trust.
+    </p>
+    <p style="margin-top:1rem; font-style: italic;">“Protecting your heart and your wallet.”</p>
+  </section>
+
+  <section class="feature-section">
+    <h2>🚀 Coming Soon</h2>
+    <p>
+      We're building something truly different.  
+      <br />AI that actually gets you — and helps you find someone who does too.
+    </p>
   </section>
 
   <footer>
