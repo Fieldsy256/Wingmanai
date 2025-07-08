@@ -2,33 +2,85 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Wingman AI</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wingman AI – Smarter Dating Starts Here</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet" />
   <style>
+    * {
+      box-sizing: border-box;
+    }
+
     body {
-      font-family: Arial, sans-serif;
-      background: #ffffff;
-      color: #222;
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: #ffffff;
+      color: #1a1a1a;
       display: flex;
       flex-direction: column;
       align-items: center;
-      justify-content: center;
-      height: 100vh;
-      margin: 0;
       text-align: center;
+      padding: 4rem 1.5rem;
     }
+
+    header img {
+      max-width: 180px;
+      margin-bottom: 1.5rem;
+    }
+
     h1 {
       font-size: 2.5rem;
+      font-weight: 700;
       margin-bottom: 1rem;
     }
+
     p {
-      font-size: 1.2rem;
-      color: #555;
+      font-size: 1.25rem;
+      max-width: 600px;
+      margin: 0 auto 2rem;
+    }
+
+    .coming-soon {
+      background-color: #f9f9f9;
+      padding: 1.5rem 2rem;
+      border-radius: 12px;
+      font-size: 1rem;
+      color: #444;
+      max-width: 500px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    }
+
+    footer {
+      margin-top: 3rem;
+      font-size: 0.875rem;
+      color: #999;
+    }
+
+    @media (max-width: 480px) {
+      h1 {
+        font-size: 2rem;
+      }
+
+      p {
+        font-size: 1.1rem;
+      }
     }
   </style>
 </head>
 <body>
-  <h1>Wingman AI</h1>
-  <p>Helping you navigate modern dating with real emotional intelligence.</p>
+  <header>
+    <img src="https://via.placeholder.com/180x60?text=Wingman+AI+Logo" alt="Wingman AI Logo" />
+    <h1>Wingman AI</h1>
+    <p>The smarter, safer way to navigate modern dating – powered by emotional intelligence and real human insight.</p>
+  </header>
+
+  <section class="coming-soon">
+    🚀 Our launch is coming soon.  
+    <br /><br />
+    We're building something that understands you – and helps you find someone who does too.
+  </section>
+
+  <footer>
+    &copy; 2025 Wingman AI. All rights reserved.
+  </footer>
 </body>
 </html>
